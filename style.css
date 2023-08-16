@@ -28,7 +28,7 @@ body {
     margin-bottom: 20px;
 }
 .todo-app h2 img {
-    width: 30px;
+    width: 70px;
     margin-left: 10px;
 }
 .row {
@@ -79,4 +79,11 @@ ul li::before {
     background-position: center;
     top: 10px;
     left: 8px;
+}
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    background-image: url(/Users/johncoleman/Downloads/radiochecked.png)
 }
