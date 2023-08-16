@@ -47,3 +47,36 @@ input {
     background: transparent;
     padding: 10px;
 }
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: teal;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#list-container {
+
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url(/Users/johncoleman/Downloads/3468087.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: 8px;
+}
